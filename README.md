@@ -1,6 +1,21 @@
 # material-popup-menu-plus
 Fork of https://github.com/zawadz88/MaterialPopupMenu with more features. I guess.
 
+# Including in your project
+Add jitpack.io to your repositories.
+```gradle
+allprojects {
+  repositories {
+	  ...
+	  maven { url 'https://jitpack.io' }
+  }
+}
+```
+
+```
+implementation 'com.github.unbiaseduser:material-popup-menu-plus:1.0'
+```
+
 # Usage
 
 ## Create a menu
