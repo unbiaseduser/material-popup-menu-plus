@@ -1,6 +1,5 @@
 package com.sixtyninefourtwenty.materialpopupmenu.builder
 
-import androidx.annotation.RestrictTo
 import com.sixtyninefourtwenty.materialpopupmenu.MaterialPopupMenu
 import com.sixtyninefourtwenty.materialpopupmenu.MaterialPopupMenuBuilder
 import com.sixtyninefourtwenty.materialpopupmenu.OnShowCallback
@@ -11,7 +10,6 @@ import java.util.function.Consumer
  *
  * It's public because it's illegal for a public subclass to extend an internal superclass.
  */
-@RestrictTo(RestrictTo.Scope.LIBRARY)
 sealed class AbstractItemBuilder<T : AbstractItemBuilder<T>> {
     internal abstract val data: MaterialPopupMenuBuilder.AbstractItem.Data
 
