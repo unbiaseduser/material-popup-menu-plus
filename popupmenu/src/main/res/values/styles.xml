@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="Widget.MPM.Menu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:colorBackground">@color/mpm_material_grey_50</item>
+        <item name="mpm_primaryTextColor">@color/mpm_black_87_opacity</item>
+        <item name="mpm_secondaryTextColor">@color/mpm_black_54_opacity</item>
+        <item name="mpm_activeIconColor">@color/mpm_black_54_opacity</item>
+        <item name="mpm_separatorColor">@color/mpm_black_12_opacity</item>
+        <item name="mpm_paddingBottom">@dimen/mpm_popup_menu_vertical_padding</item>
+        <item name="mpm_paddingStart">0dp</item>
+        <item name="mpm_paddingEnd">0dp</item>
+        <item name="mpm_paddingTop">@dimen/mpm_popup_menu_vertical_padding</item>
+        <item name="mpm_isM3">false</item>
+    </style>
+
+    <style name="Widget.MPM.Menu.Material3" parent="Widget.Material3.PopupMenu.Overflow">
+        <item name="mpm_primaryTextColor">@color/mpm_black_87_opacity</item>
+        <item name="mpm_secondaryTextColor">@color/mpm_black_54_opacity</item>
+        <item name="mpm_activeIconColor">@color/mpm_black_54_opacity</item>
+        <item name="mpm_separatorColor">@color/mpm_black_12_opacity</item>
+        <item name="mpm_paddingBottom">0dp</item>
+        <item name="mpm_paddingStart">0dp</item>
+        <item name="mpm_paddingEnd">0dp</item>
+        <item name="mpm_paddingTop">0dp</item>
+        <item name="mpm_isM3">true</item>
+    </style>
+
+    <style name="Widget.MPM.Item" parent="">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+</resources>
