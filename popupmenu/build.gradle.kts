@@ -56,6 +56,7 @@ publishing {
             pom {
                 name.set("material-popup-menu-plus")
                 description.set("Fork of MaterialPopupMenu with more features. I guess.")
+                url.set("https://github.com/unbiaseduser/material-popup-menu-plus")
 
                 licenses {
                     license {
@@ -71,6 +72,12 @@ publishing {
                         email.set("quangtrung02hn16@gmail.com")
                         url.set("https://github.com/unbiaseduser")
                     }
+                }
+
+                scm {
+                    connection.set("scm:git:github.com/unbiaseduser/material-popup-menu-plus.git")
+                    developerConnection.set("scm:git:ssh://github.com/unbiaseduser/material-popup-menu-plus.git")
+                    url.set("https://github.com/unbiaseduser/material-popup-menu-plus/tree/master")
                 }
             }
         }
