@@ -102,3 +102,8 @@ Q: Do you ever plan to do so?
 
 A: No.
 
+Q: Is this a *hard fork*?
+
+A: Short answer: yes. Long answer: Well, at first I just downloaded the original library code to mess around without preserving git-related stuff. I got much further
+than I expected, so I decided to release the fork to the public. I *am* aware that I can just fork the library normally, but it is what it is, and trying to disect my
+changes into git commits I make with the same amount of effort I put in as my other projects (aka a lot) will quickly drain my sanity.
